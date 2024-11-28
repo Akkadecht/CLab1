@@ -4,10 +4,7 @@ int main(){
 	int n1;
 	int n2;
 	int n3;
-	printf("n1=");
-	scanf("%d",&n1);
-	printf("n2=");
-	scanf("%d",&n2);  
+	scanf("%d %d",&n1,&n2);
 	if(n1>n2){
 		n3=n1-n2;
         printf("%d greater than %d = %d",n1,n2,n3);
