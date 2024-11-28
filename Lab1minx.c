@@ -1,13 +1,20 @@
 #include <stdio.h>
 
 int main(){
-	int num1=14;
-	int num2=23;
-	if(num1>num2){
-        printf("num1 greater than num2");
+	int n1;
+	int n2;
+	int n3;
+	printf("n1=");
+	scanf("%d",&n1);
+	printf("n2=");
+	scanf("%d",&n2);  
+	if(n1>n2){
+		n3=n1-n2;
+        printf("%d greater than %d = %d",n1,n2,n3);
 	}
 	else{
-		printf("num2 greater than num1");
+		n3=n2-n1;
+		printf("%d greater than %d = %d",n1,n2,n3);
 	}
 	return 0;
 }
