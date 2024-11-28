@@ -14,7 +14,7 @@ int main(){
 	}
 	else{
 		n3=n2-n1;
-		printf("%d greater than %d = %d",n1,n2,n3);
+		printf("%d greater than %d = %d",n2,n1,n3);
 	}
 	return 0;
 }
